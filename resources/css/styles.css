@@ -58,9 +58,6 @@ ul.color-samples li {
 
 /* FONTS */
 
-#fonts {
-
-}
 .fonts li{
     display: inline-block;
     margin-right: 30px;
@@ -115,9 +112,6 @@ ul.color-samples li {
 
 
 /* TEXTS STYLES */
-#text-styles {
-
-}
 h1 {
     font-weight: 700;
     font-size: 32px;
