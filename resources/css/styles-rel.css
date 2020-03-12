@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: "Alcubierre";
-    src: url("../fonts/Alcubierre.ttf") format("truetype");
+    src: url("resources/fonts/Alcubierre.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
