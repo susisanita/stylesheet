@@ -1,0 +1,255 @@
+
+/* GENERAL */
+
+@font-face {
+    font-family: "Alcubierre";
+    src: url("../fonts/Alcubierre.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Screen - Web */
+html {
+    font-size: 16px;
+    }
+
+/* LAYOUT */
+
+body {
+    margin: 3% auto 5% auto;
+    width: 80%;
+}
+.container {
+   border: 2px solid grey;
+   margin-bottom: 2.5%;
+   display: block;
+}
+.content {
+    padding: 2% 3% 3% 3%;
+}
+
+
+/* COLORS */
+
+ul.color-samples li {
+    position: relative;
+    color: white;
+    display: inline-block;
+    width: 15%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2rem;
+    margin: 0 5% 1% 0;
+}
+.color-samples li {
+    line-height: 2;
+}
+#color1 {
+    background-color: rgb(0 69 128);
+}
+#color2 {
+    background-color: rgb(250 114 104);
+}
+#color3 {
+    background-color: rgb(0 168 128);
+}
+#color4 {
+    background-color: rgb(226 65 35);
+    margin-right: 0;
+}
+
+
+/* FONTS */
+
+.fonts li{
+    display: inline-block;
+    margin-right: 8%;
+}
+#font1 {
+    font-family: "Chivo", Georgia, "Times New Roman", serif;
+}
+#font2 {
+    font-family: "Open Sans", "Open Sans Condensed", sans-serif;
+}
+#font3 {
+    font-family: "Aleo", Georgia, "Times New Roman", serif;
+}
+#font4 {
+    font-family: "Alcubierre", "Open Sans Condensed", sans-serif;
+}
+#fonts li {
+    line-height: 2;
+}
+.font-name {
+    font-size: 1.3rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 0.625rem;
+}
+.font-light {
+    font-weight: lighter;
+}
+.font-regular {
+    font-weight: normal;
+}
+.font-bold {
+    font-weight: bold;
+}
+.font-italic {
+    font-weight: normal;
+    font-style: italic;
+}
+#font1, #font2, #font3 {
+    height: 10rem;
+    width: 19rem;
+}
+#font3 {
+    margin-right: 0;
+}
+#font4 {
+    height: 8rem;
+    width: 19rem;
+    margin-top: 1%;
+}
+
+
+/* margin-right: 50px;
+    margin-bottom: 50px;
+    float: left; */
+
+/* TEXTS STYLES */
+
+h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: "Chivo", Helvetica, Arial, sans-serif;
+    line-height: 2;
+}
+h2 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    font-family: "Alcubierre", "Open Sans Condensed", sans-serif;
+    line-height: 2;
+    text-transform: uppercase;
+}
+h3 {
+    font-weight: 400;
+    font-size: 1.125rem;
+    font-family: "Aleo", Georgia, "Times New Roman", serif;
+    line-height: 1.8;
+    text-transform: lowercase;
+}
+p, ul, ol, .texto {
+    font-weight: 300;
+    font-size: 0.875rem;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+ul.properties {
+    list-style: circle;
+    padding-left: 3rem;
+}
+.text-styles {
+    line-height: 4rem;
+    ;
+}
+
+
+/* IGMAGES */
+
+.imgcontainer {
+    width: 50%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.imgcontainer img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.backgorund {
+    background-image: url('#');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* MEDIA */
+
+/* Screen - Phone vertical */
+@media only screen and (min-width:320px) and (max-width: 520px)  {
+    html {
+        font-size: 18px;
+    }
+    .content {
+        padding: 3% 6% 10% 6%;
+    }
+    header h1{
+        text-align: center;
+    }
+    ul.color-samples li {
+        width: 75%;
+        display: block;
+        margin: 2% auto;
+    }
+    #color4 {
+        margin: 2% auto;
+    }
+    #font1, #font2, #font3, #font4 {
+        display: block;
+        margin: 2% auto;
+    }
+    .properties div {
+        display: block;
+        margin: 2% auto;
+    }
+    #text-styles h1 {
+        font-size: 1.7rem;
+    }
+}
+
+/* Screen - Tablets */
+@media only screen and (min-width: 1000px) and (max-width: 1490px) {
+    header h1{
+        text-align: center;
+    }
+    ul.color-samples li {
+        width: 82%;
+        display: block;
+        margin: 2% auto;
+    }
+    #color4 {
+        margin: 2% auto;
+    }
+    #font3 {
+        margin-right: 8%;
+    }
+    #font4 {
+        height: 10rem;
+    }
+}
+@media only screen and (min-width: 520px) and (max-width: 1000px) {
+    header h1{
+        text-align: center;
+    }
+    ul.color-samples li {
+        width: 82%;
+        display: block;
+        margin: 2% auto;
+    }
+    #color4 {
+        margin: 2% auto;
+    }
+    #font1, #font2, #font3, #font4 {
+        display: block;
+        margin: 2% auto 4% auto;
+    }
+    div.properties {
+        display: block;
+        margin: 2% auto 0.5% auto;
+    }
+}
+/* and (orientation: landscape)  */

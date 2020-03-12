@@ -1,0 +1,176 @@
+
+/* GENERAL */
+
+@font-face {
+    font-family: "Alcubierre";
+    src: url("../fonts/Alcubierre.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* LAYOUT */
+
+body {
+    margin: 30px 150px;
+}
+.container {
+   border: 2px solid grey;
+   margin-bottom: 20px;
+   display: block;
+}
+.content {
+    padding: 20px 30px 30px 30px;
+}
+
+
+/* COLORS */
+
+ul.color-samples li {
+    position: relative;
+    color: white;
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 30px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+.color-samples li {
+    line-height: 2;
+}
+#color1 {
+    background-color: rgb(0 69 128);
+}
+#color2 {
+    background-color: rgb(250 114 104);
+}
+#color3 {
+    background-color: rgb(0 168 128);
+}
+#color4 {
+    background-color: rgb(226 65 35);
+    margin-right: 0;
+}
+
+
+/* FONTS */
+
+#fonts {
+
+}
+.fonts li{
+    display: inline-block;
+    margin-right: 30px;
+}
+#font1 {
+    font-family: "Chivo", Georgia, "Times New Roman", serif;
+}
+#font2 {
+    font-family: "Open Sans", "Open Sans Condensed", sans-serif;
+}
+#font3 {
+    font-family: "Aleo", Georgia, "Times New Roman", serif;
+}
+#font4 {
+    font-family: "Alcubierre", "Open Sans Condensed", sans-serif;
+}
+#fonts li {
+    line-height: 2;
+}
+.font-name {
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.font-light {
+    font-weight: lighter;
+}
+.font-regular {
+    font-weight: normal;
+}
+.font-bold {
+    font-weight: bold;
+}
+.font-italic {
+    font-weight: normal;
+    font-style: italic;
+}
+#font1, #font2, #font3 {
+    height: 180px;
+    width: 350px;
+}
+#font4 {
+    height: 150px;
+    width: 350px;
+}
+
+
+/* margin-right: 50px;
+    margin-bottom: 50px;
+    float: left; */
+
+
+/* TEXTS STYLES */
+#text-styles {
+
+}
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "Chivo", Helvetica, Arial, sans-serif;
+    line-height: 2;
+}
+h2 {
+    font-weight: 300;
+    font-size: 24px;
+    font-family: "Alcubierre", "Open Sans Condensed", sans-serif;
+    line-height: 2;
+    text-transform: uppercase;
+}
+h3 {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Aleo", Georgia, "Times New Roman", serif;
+    line-height: 1.8;
+    text-transform: lowercase;
+}
+p, ul, ol, .texto {
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+ul.properties {
+    list-style: circle;
+    padding-left: 50px;
+}
+.text-styles {
+    line-height: 3;
+    ;
+}
+
+
+/* IGMAGES */
+
+.imgcontainer {
+    width: 50%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.imgcontainer img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.backgorund {
+    background-image: url('#');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
